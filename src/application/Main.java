@@ -292,31 +292,6 @@ public class Main extends Application {
 			  });
 			
 				
-//			TableColumn column2 = new TableColumn("First Name");
-//			column2.setMinWidth(200);
-//			column2.setCellValueFactory(new PropertyValueFactory<>("firstName"));
-//				
-//			TableColumn column3 = new TableColumn("Last Name");
-//			column3.setMinWidth(200);
-//			column3.setCellValueFactory(new PropertyValueFactory<>("lastName"));
-//				
-//			TableColumn column4 = new TableColumn("Age");
-//			column4.setMinWidth(200);
-//			column4.setCellValueFactory(new PropertyValueFactory<>("age"));
-//			
-//			TableColumn column5 = new TableColumn("Username");
-//			column5.setMinWidth(200);
-//			column5.setCellValueFactory(new PropertyValueFactory<>("username"));
-//			
-//			TableColumn column6 = new TableColumn("Password");
-//			column6.setMinWidth(200);
-//			column6.setCellValueFactory(new PropertyValueFactory<>("password"));
-//
-//			TableColumn column7 = new TableColumn("DOB");
-//			column7.setMinWidth(200);
-//			column7.setCellValueFactory(new PropertyValueFactory<>("DOB"));
-			
-				
 			table.getColumns().addAll(column1,column2,column3,column4,column5,column6,column7);
 			
 			layout.setRight(table);
